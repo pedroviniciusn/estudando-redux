@@ -11,4 +11,5 @@ export interface ICarItem {
 
 export interface ICarState {
   items: ICarItem[];
+  failedStockCheck: number[];
 }
