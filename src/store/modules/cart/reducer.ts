@@ -5,7 +5,8 @@ const INITIAL_STATE: ICarState = {
   items: [],
 }
 
-const cart: Reducer<ICarState> = () => {
+const cart: Reducer<ICarState> = (state, action) => {
+  console.log(state, action)
   return INITIAL_STATE;
 }
 
