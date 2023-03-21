@@ -4,7 +4,6 @@ import { ICarItem } from '../store/modules/cart/types';
 
 function Cart() {
   const cart = useSelector<IState, ICarItem[]>(state => state.cart.items);
-  console.log(cart)
 
   return (
     <table>
